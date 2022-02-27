@@ -1,0 +1,31 @@
+@font-face{
+    font-family: digital;
+    src: url(digital.ttf);
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    overflow: hidden;
+}
+#clock{
+    display: flex;
+    font-family: digital;
+    color: rgb(44, 230, 53);
+    text-align: center;
+    text-align: center;
+    font-size: 7em;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+@media(max-width: 776px){
+    #clock{
+        font-size: 5em;
+    }
+}
+@media(max-width: 576px){
+    #clock{
+        font-size: 4em;
+    }
+}
